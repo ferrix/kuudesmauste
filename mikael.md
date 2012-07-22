@@ -3,7 +3,7 @@ layout: page
 title: Mikael
 published: true
 meta: {}
-
+permalink: /mikael/
 tags: []
 
 type: page

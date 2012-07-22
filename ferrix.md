@@ -3,7 +3,7 @@ layout: page
 title: Ferrix
 published: true
 meta: {}
-
+permalink: /ferrix/
 tags: []
 
 type: page
