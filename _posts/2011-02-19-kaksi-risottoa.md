@@ -29,6 +29,7 @@ Risottorunko
 1 dl	hyvälaatuista oliiviöljyä
 	tarjoiltaessa parmesaania ja oliiviöljyä</pre>
 </blockquote>
+
 Kokkauksessa on pari koulukuntaa harrastelijoiden kastissa; niitä jotka säveltävät reseptinsä aina ja niitä jotka seuraavat niitä tarkasti. On niitä, jotka suostuvat käyttämään vain tuoreita, lähikasvatettuja tai muuten vaan niin eksklusiivisia aineksia kuin on saatavilla ja on niitä jotka valitsevat käytännöllisen tien. Minä seuraan yleensä reseptejä edes kerran pilkulleen ja sitten sovellan omani siitä ja valitsen käytännölliset ainekset ennemmin kuin aidot ja oikeaoppiset, vaikka välillä kun on saatavilla niin sitten panostan niihin. Tällä kertaa kuten jo aineksista näkyy, jouduin soveltamaan käytäntöä. Kuvat jäivät lisäksi kiireen takia ottamatta.
 
 Sanotaan vielä kerran, että risottoruoat ovat helppoja, nyt vain tarvitsee tehdä asioita samanaikaisesti. Aloita pilkkomalla sipulit pieneksi, puolita kirsikkatomaatit, nosta herneet sulamaan ja katso että liemesi on valmiina. Seuraavaksi on tärkeää saada risottojen runko tekeytymään ja samalla valmistaa täytteet.
