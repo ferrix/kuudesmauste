@@ -9,11 +9,23 @@ tags:
 type: post
 status: publish
 ---
-<a href="http://www.flickr.com/photos/kjue/5120313291/" title="Purjo-perunasosekeitto 27.10.2010 by Kjue, on Flickr"><img src="http://farm5.static.flickr.com/4065/5120313291_4112ef0dc3.jpg" width="166" height="125" align="left" alt="Purjo-perunasosekeitto 27.10.2010" /></a>Kiireen keskellä on aina välillä seisahdettava parempien asioiden äärelle, vaikka olisi kuinka kiire. Viimeisten viikkojen aikana on ollut yhtä jos toista tekemistä enkä ole päässyt tämän miellyttävän kirjoittamisen pariin juurikaan. Resepti on minulle tullut alunperun kuorotuttavaltani, mutta sittemmin jouduin onkimaan reseptin uudestaan esiin netistä ja se löytyi näppärästi <a href="http://pastanjauhantaa.blogspot.com/2006/02/purjo-perunasosekeitto_21.html">Pastanjauhannasta</a>. Kiitos tästä!
+<a href="http://www.flickr.com/photos/kjue/5120313291/" title="Purjo-perunasosekeitto 27.10.2010 by Kjue, on Flickr"><img src="http://farm5.static.flickr.com/4065/5120313291_4112ef0dc3.jpg" width="166" height="125" align="left" alt="Purjo-perunasosekeitto 27.10.2010" /></a>
+Kiireen keskellä on aina välillä seisahdettava parempien asioiden
+äärelle, vaikka olisi kuinka kiire. Viimeisten viikkojen aikana on
+ollut yhtä jos toista tekemistä enkä ole päässyt tämän miellyttävän
+kirjoittamisen pariin juurikaan. Resepti on minulle tullut alunperin
+kuorotuttavaltani, mutta sittemmin jouduin onkimaan reseptin
+uudestaan esiin netistä ja se löytyi näppärästi
+<a href="http://pastanjauhantaa.blogspot.com/2006/02/purjo-perunasosekeitto_21.html">Pastanjauhannasta</a>.
+Kiitos tästä!
 
-Työstä tutut periaatteet tulee toki soveltaa nytkin, joten käydäänpä läpi tämän kerran resepti omassa kokonaisuudessaan, koska siinä on varmasti jotain Rosmariinin reseptistä poikkeavaa. Tarvitset reseptiä varten sauvasekoittimen.
+Työstä tutut periaatteet tulee toki soveltaa nytkin, joten käydäänpä
+läpi tämän kerran resepti omassa kokonaisuudessaan, koska siinä on
+varmasti jotain Rosmariinin reseptistä poikkeavaa. Tarvitset reseptiä
+varten sauvasekoittimen.
 
-<blockquote><pre>1	purjo
+<blockquote><pre>
+1	purjo
 8	perunaa
 2	sipulia
 4 rkl	öljyä
