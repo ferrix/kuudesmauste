@@ -22,7 +22,7 @@ theme: erudite
 <script type='text/javascript' src='/js/jquery/jquery.js?ver=1.7.2'></script>
 <link rel='next' title='Ferrix' href='/ferrix/' />
 <meta name="generator" content="Jekyll" />
-<link rel='canonical' href='/kuudesmauste/' />
+<link rel='canonical' href='{{ page.url }}' />
 </head>
 <body class="page page-template-default hiding">
 
@@ -31,7 +31,7 @@ theme: erudite
 	<div id="header-wrap">
 		<div id="header" role="banner">
             <h1 id="blog-title"><span><a href="/" title="{{ site.title }}" rel="home">{{ site.title }}</a></span></h1>
-			<div id="blog-description">I see hungry people</div>
+            <div id="blog-description">{{ site.tagline }}</div>
 		</div><!--  #header -->
 
 		<div id="access" role="navigation">
@@ -44,10 +44,10 @@ theme: erudite
 		<div id="content" role="main">
 
 
-			<div class="page type-page status-publish hentry">
-				<h2 class="entry-title">{{ page.title }}</h2>
+        <div class="page type-page status-publish hentry">
+                <h2 class="entry-title">{{ page.title }}</h2>
 				<div class="entry-content">
-				{{ content}}
+                                {{ content }}
 				</div>
 			</div><!-- .post -->
 
