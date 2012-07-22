@@ -5,7 +5,7 @@ theme: erudite
 <html dir="ltr" lang="fi-FI" class="no-js">
 <head>
 	<meta charset="UTF-8" />
-	<title>{{ page.title }} &#8211; Kuudes mauste</title>
+    <title>{{ page.title }} &#8211; {{ site.title }}</title>
 	<meta name="profile" content="http://gmpg.org/xfn/11" />
 	<!--[if lte IE 7 ]> <link rel="stylesheet" href="/themes/the-erudite/css/ie7.css" type="text/css"> <![endif]-->
 	<!--[if IE 8 ]> <link rel="stylesheet" href="/themes/the-erudite/css/ie8.css" type="text/css"> <![endif]-->
@@ -14,9 +14,9 @@ theme: erudite
 		(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);
 	</script>
 <meta name='robots' content='noindex,nofollow' />
-<link rel="alternate" type="application/rss+xml" title="Kuudes mauste &raquo; Feed" href="/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Kuudes mauste &raquo; Comments Feed" href="/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Kuudes mauste &raquo; {{ page.title }} Comments Feed" href="/kuudesmauste/feed/" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Comments Feed" href="/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; {{ page.title }} Comments Feed" href="/kuudesmauste/feed/" />
 <link rel='stylesheet' id='the-erudite-css'  href='/themes/the-erudite/css/erudite.css' type='text/css' media='all' />
 <script type='text/javascript' src='/js/comment-reply.js'></script>
 <script type='text/javascript' src='/js/jquery/jquery.js?ver=1.7.2'></script>
@@ -31,7 +31,7 @@ theme: erudite
 	
 	<div id="header-wrap">
 		<div id="header" role="banner">
-			<h1 id="blog-title"><span><a href="/" title="Kuudes mauste" rel="home">Kuudes mauste</a></span></h1>
+            <h1 id="blog-title"><span><a href="/" title="{{ site.title }}" rel="home">{{ site.title }}</a></span></h1>
 			<div id="blog-description">I see hungry people</div>
 		</div><!--  #header -->
 
@@ -65,7 +65,7 @@ theme: erudite
 					<li id="about-sidebar">
 						<h3>Tietoja</h3>
 						<div>
-						<p>Kuudes mauste on blogi ruuasta. Kirjoittajat ovat Ferrix ja Mikael. Emme ole ammattikokkeja, mutta viihdymme keittiössä ja ruokapöydässä.</p>
+                        <p>{{ site.title }} on blogi ruuasta. Kirjoittajat ovat Ferrix ja Mikael. Emme ole ammattikokkeja, mutta viihdymme keittiössä ja ruokapöydässä.</p>
 						</div>
 					</li>
 					
@@ -87,7 +87,7 @@ theme: erudite
 				<li id="categories">
 					<h3>Luokat</h3>
 					<ul>
-		<li class="cat-item"><a href="/luokka/blogi/" title="View all posts filed under Kuudes mauste">Kuudes mauste</a>
+                        <li class="cat-item"><a href="/luokka/blogi/" title="View all posts filed under {{ site.title }}">{{ site.title }}</a>
 </li>
 	<li class="cat-item"><a href="/luokka/ruuanlaitto/" title="Miten me kokkaamme">Ruuanlaitto</a>
 <ul class='children'>
@@ -148,8 +148,8 @@ theme: erudite
 				<li id="rss-links">
 					<h3>RSS-syötteet</h3>
 					<ul>
-						<li><a href="/feed/" title="Kuudes mauste viimeisimmät julkaisut" rel="alternate" type="application/rss+xml">Kaikki julkaisut</a></li>
-						<li><a href="/comments/feed/" title="Kuudes mauste viimeisimmät kommentit" rel="alternate" type="application/rss+xml">Kaikki kommentit</a></li>
+                        <li><a href="/feed/" title="{{ site.title }} viimeisimmät julkaisut" rel="alternate" type="application/rss+xml">Kaikki julkaisut</a></li>
+                        <li><a href="/comments/feed/" title="{{ site.title }} viimeisimmät kommentit" rel="alternate" type="application/rss+xml">Kaikki kommentit</a></li>
 					</ul>
 				</li>
 				</ul>

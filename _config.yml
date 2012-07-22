@@ -1,1 +1,6 @@
 permalink: pretty
+
+exclude: ["CNAME"]
+
+title: Kuudes mauste
+tagline: I see hungry people
