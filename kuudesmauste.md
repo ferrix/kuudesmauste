@@ -3,7 +3,7 @@ layout: page
 title: Blogista
 published: true
 meta: {}
-
+permalink: /kuudesmauste/
 tags: []
 
 type: page
