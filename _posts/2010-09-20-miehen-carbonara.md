@@ -12,6 +12,7 @@ status: publish
 Kaivoin arkistojen kätköjä ja löysin vanhan pastareseptin. Vaikka en viime aikoina olekaan juuri pastaan koskenut, toimii kastike edelleen vaikkapa paistetun kaalin tai vaikka juuresraasteen päällä.
 
 Ruokaohjeen otsikkona komeili tyylikkäästi "PASTA CARBONARA à la  Ferriisi" ja annosmääräkin oli ammattimaisesti kirjoitettu: "korkeintaan  pari annosta". Nuori minä on selkeästi tiennyt, että rasvasta ja suolasta se ruuan maku tulee ja vähäisestä tulee vihaiseksi. Raaka-aineet kuuluvat seuraavasti:
+
 <blockquote>
 <pre> 1 pkt	pekonia
  2	kananmunaa
