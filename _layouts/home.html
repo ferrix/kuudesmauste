@@ -3,10 +3,10 @@ theme: erudite
 ---
 {% include header.html %}
             {% for post in paginator.posts %}
-            <div class="post {% if forloop.index == 1 %}first-post{% else %}home-post home-post-{{ forloop.index }}{% endif %}">
-                <h{% if forloop.index == 1 %}2{% else %}3{% endif %} class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
+            <div class="post {% if forloop.index == 1 and paginator.page == 1 %}first-post{% elsif paginator.page == 1 %}home-post home-post-{{ forloop.index }}{% endif %}">
+                <h{% if forloop.index == 1 and paginator.page == 1 %}2{% else %}3{% endif %} class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
                 <div class="entry-content">
-                    {% if forloop.index == 1 %}{{ post.content }}{% else %}<p>
+                    {% if forloop.index == 1 and paginator.page == 1 %}{{ post.content }}{% else %}<p>
                         {{ post.content | strip_html | truncatewords: 55, ' <span class="excerpt-more">&hellip;</span>' }}
                     </p>
                     <p class="more-link"><a href="{{ post.url }}" title="Lue lisää &lsquo;{{ post.title }}&rsquo;">Lue lisää <span class="meta-nav">&rarr;</span></a></p>{% endif %}
