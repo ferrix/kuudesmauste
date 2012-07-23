@@ -3,37 +3,28 @@ theme: erudite
 ---
 {% include header.html %}
             {% for post in paginator.posts %}
-            <div class="post first-post">
-                <h2 class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
+            <div class="post {% if forloop.index == 1 %}first-post{% else %}home-post home-post-{{ forloop.index }}{% endif %}">
+                <h{% if forloop.index == 1 %}2{% else %}3{% endif %} class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
                 <div class="entry-content">
-                    {{ post.content }}
+                    {% if forloop.index == 1 %}{{ post.content }}{% else %}<p>
+                        {{ post.content | strip_html | truncatewords: 55, ' <span class="excerpt-more">&hellip;</span>' }}
+                    </p>
+                    <p class="more-link"><a href="{{ post.url }}" title="Lue lisää &lsquo;{{ post.title }}&rsquo;">Lue lisää <span class="meta-nav">&rarr;</span></a></p>{% endif %}
                     <hr />
                 </div>
-				<div class="entry-meta">
-                    <span class="entry-date"><abbr class="published" title="2011-02-19T12:00:51+0300">{{ post.date | date: "%d.%m.%Y" }}</abbr></span>
-					<span class="meta-sep">|</span>
-					<span class="author vcard">Kirjoittanut <a href="/author/mlavi/" title="Kirjoittajan Mikael julkaisut">Mikael</a></span>
-					<span class="meta-sep">|</span>
-					<span class="cat-links">Julkaistu <a href="/luokka/ruuanlaitto/reseptit/" title="View all posts in Reseptit" rel="category tag">Reseptit</a></span>
-					<span class="meta-sep">|</span>
-										<span class="comments-link"><a href="/2011/02/19/kaksi-risottoa/#respond" title="Comment on Kaksi risottoa">Ei kommentteja</a></span>
-				</div>
-			</div><!-- .post -->
+                <div class="entry-meta">
+                    <span class="entry-date"><abbr class="published" title="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d.%m.%Y" }}</abbr></span>
+                    <span class="meta-sep">|</span>
+                    <span class="author vcard">Kirjoittanut <a href="/author/{{ post.author | downcase }}/" title="Kirjoittajan {{ post.author }} julkaisut">{{ post.author }}</a></span>
+                    <span class="meta-sep">|</span>
+                    <span class="cat-links">Julkaistu <a href="/luokka/ruuanlaitto/reseptit/" title="Näytä kategoria Reseptit" rel="category tag">Reseptit</a></span>
+                    <span class="meta-sep">|</span>
+                    <span class="comments-link"><a href="{{ post.url }}#respond" title="Comment on Kaksi risottoa">Ei kommentteja</a></span>
+                </div>
+            </div><!-- .post -->
             {% endfor %}
 
-		<div class="post home-post home-post-2">
-		<h3 class="entry-title"><a href="/2011/02/15/viimeisimmat-punaviinit-osa-ii/" title="Pysyvä linkki Viimeisimmät punaviinit, osa II" rel="bookmark">Viimeisimmät punaviinit, osa II</a></h3>
-		<div class="entry-content">
-<p>Reilusta kaupasta voi olla montaa mieltä. Viisi euroa enemmän hintaa muuttuu kymmeneksi sentiksi jossain. Toki kymmenen senttiä on enemmän jossain, missä eurolla voi ostaa päivän ruuat. Olennainen asia reiluudessa on se, että tuotteiden täytyy olla hintansa väärttejä. Reiluus on ennen kaikkea brändi, jonka imagoa täytyy vaalia. En ole oikeastaan koskaan maistanut huonoa reilun kaupan viiniä. <span class="excerpt-more">&hellip;</span></p>
-			<p class="more-link"><a href="/2011/02/15/viimeisimmat-punaviinit-osa-ii/" title="Lue lisää &lsquo;Viimeisimmät punaviinit, osa II&rsquo;">Lue lisää <span class="meta-nav">&rarr;</span></a></p>
-			<hr />
-								</div>
-				<div class="entry-meta">
-					<span class="entry-date"><abbr class="published" title="2011-02-15T16:18:49+0300">15.2.2011 &#8211; 16.18</abbr></span>
-					<span class="meta-sep">|</span>
-					<span class="author vcard">Kirjoittanut <a href="/author/ferrix/" title="Kirjoittajan Ferrix julkaisut">Ferrix</a></span>
-					<span class="meta-sep">|</span>
-					<span class="cat-links">Julkaistu <a href="/luokka/viinit/" title="View all posts in Viinit" rel="category tag">Viinit</a></span>
+                    <span class="cat-links">Julkaistu <a href="/luokka/viinit/" title="View all posts in Viinit" rel="category tag">Viinit</a></span>
 					<span class="meta-sep">|</span>
 										<span class="comments-link"><a href="/2011/02/15/viimeisimmat-punaviinit-osa-ii/#respond" title="Comment on Viimeisimmät punaviinit, osa II">Ei kommentteja</a></span>
 				</div>

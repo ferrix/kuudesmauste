@@ -16,12 +16,12 @@
 {% if page.layout != "home" %}<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; {{ page.title }} Comments Feed" href="feed/" />{% endif %}
 <link rel='stylesheet' id='the-erudite-css'  href='/themes/the-erudite/css/erudite.css' type='text/css' media='all' />
 <script type='text/javascript' src='/js/jquery/jquery.js'></script>
-{% if page.layout == "post" %}<link rel='prev' title='Viimeisimmät punaviinit, osa I' href='/2010/09/25/viimeisimmat-punaviinit-osa-i/' />
-<link rel='next' title='Purjo-perunasosekeitto' href='/2010/10/27/purjo-perunasosekeitto/' />{% endif %}
+{% if page.previous %}<link rel='prev' title="{{ page.previous.title }}" href="{{ page.previous.url }}" />{% endif %}
+{% if page.next %}<link rel='next' title="{{ page.next.title }}" href="{{ page.next.url }}" />{% endif %}
 <meta name="generator" content="Jekyll" />
 <link rel="canonical" href="{{ page.url }}" />
 </head>
-<body class="{% if page.layout == "post" %}single{% elif page.layout == "home" %}home first-page{% else %}page{% endif %} hiding">
+<body class="{% if page.layout == "post" %}single{% elsif page.layout == "home" %}home first-page{% else %}page{% endif %} hiding">
 
 <div id="wrapper" class="hfeed">
     <div id="header-wrap">

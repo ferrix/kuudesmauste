@@ -1,14 +1,12 @@
 --- 
 layout: post
-title: !binary |
-  VsOkbGluZWlzdMO2w6QgamEgbGFtcGFhbmvDpMOkcMOkcGlodml0
+title: Välineistöä ja lampaankääpäpihvit
 author: Mikael
 published: true
-meta: 
-  _edit_last: "1"
 tags: 
 - Reseptit
 - Välineet
+
 type: post
 status: publish
 ---

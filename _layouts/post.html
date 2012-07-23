@@ -19,8 +19,8 @@ theme: erudite
             </div><!-- .post -->
 
             <div id="nav-below" class="navigation">
-                <div class="nav-previous"><a href="/2010/09/25/viimeisimmat-punaviinit-osa-i/" rel="prev"><span class="meta-nav">&larr;</span> Viimeisimmät punaviinit, osa I</a></div>
-                <div class="nav-next"><a href="/2010/10/27/purjo-perunasosekeitto/" rel="next">Purjo-perunasosekeitto <span class="meta-nav">&rarr;</span></a></div>
+                {% if page.previous %}<div class="nav-previous"><a href="{{ page.previous.url }}" rel="prev"><span class="meta-nav">&larr;</span> {{ page.previous.title }}</a></div>{% endif %}
+                {% if page.next %}<div class="nav-next"><a href="{{ page.next.url }}" rel="next">{{ page.next.title }} <span class="meta-nav">&rarr;</span></a></div>{% endif %}
             </div>
 
             <div id="comments">

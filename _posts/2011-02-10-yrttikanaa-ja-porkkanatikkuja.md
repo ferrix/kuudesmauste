@@ -2,11 +2,10 @@
 layout: post
 title: Yrttikanaa ja porkkanatikkuja
 published: true
-meta: 
-  _edit_last: "1"
 author: Ferrix
 tags: 
 - Reseptit
+
 type: post
 status: publish
 ---
@@ -22,27 +21,42 @@ dippi ja pilkkoa porkkanat tikuiksi.
 Syömisen täytyi tapahtua sohvalla, jotta samaan aikaan voi katsella
 elokuvaa ja siksi valmistuksen piti olla nopeaa ja napostelun helppoa.
 Kaiken lisäksi liikunnan jälkeen tarvitaan hiukan proteiinia.
-<blockquote> <pre>2 kanafilettä rosmariinia persiljaa kirveliä
-oreganoa suolaa pippuria valkosipulijauhetta inkiväärihunajaa
-paistamiseen silavaa</pre> </blockquote> Lähtötilanteen kanahan oli
-jäässä, joten sitä piti sulattaa sen verran, että fileet sai irti
-toisistaan. Sen jälkeen yrtit ja mausteet pintaan, silava pannuun ja
-paistetaan nopeasti ensin molemmilta puolilta ja sitten kypsennellään.
-Kun liha on alkaa ensin pehmetä ja sitten kypsyä, lisätään pintaan
-teelusikallinen inkiväärihunajaa ja käännetään fileet vielä niin, että
-toisellekin puolelle tarttuu hunajaa.
+
+<blockquote>
+<pre>
+2   kanafilettä
+    rosmariinia
+    persiljaa
+    kirveliä
+    oreganoa
+    suolaa
+    pippuria
+    valkosipulijauhetta
+    inkiväärihunajaa
+    paistamiseen silavaa
+</pre> </blockquote>
+
+Lähtötilanteen kanahan oli jäässä, joten sitä piti sulattaa sen
+verran, että fileet sai irti toisistaan. Sen jälkeen yrtit ja mausteet
+pintaan, silava pannuun ja paistetaan nopeasti ensin molemmilta
+puolilta ja sitten kypsennellään.  Kun liha on alkaa ensin pehmetä ja
+sitten kypsyä, lisätään pintaan teelusikallinen inkiväärihunajaa ja
+käännetään fileet vielä niin, että toisellekin puolelle tarttuu
+hunajaa.
 
 Ja mitäs lisäkkeeksi? No, tehdään dippi ja pilkotaan porkkanat
 tikuiksi:
 
 <blockquote>
-<pre>4 porkkanaa</pre>
-<pre>2 dl kermaaviiliä
+<pre>
+4     porkkanaa
+2 dl  kermaaviiliä
 2 rkl garam masalaa
-suolaa
-pippuria
-valkosipulijauhetta
-1 tl sokeria</pre>
+      suolaa
+      pippuria
+      valkosipulijauhetta
+      1 tl sokeria
+</pre>
 </blockquote>
 
 Dipin ja porkkanat voi valmistella kanan kypsyessä. Dippiin ei liity

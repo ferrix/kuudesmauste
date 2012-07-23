@@ -1,12 +1,11 @@
---- 
+---
 layout: post
 title: Kaksi risottoa
 published: true
-meta: 
-  _edit_last: "1"
 author: Mikael
 tags: 
 - Reseptit
+
 type: post
 status: publish
 ---
@@ -25,22 +24,26 @@ Jamien suosittelemia yhdistelmiä; tomaatia, basilikaa ja valkosipulia
 oliiviöljyssä sekä herneitä ja minttua oliiviöljyssä. Mahtavaa!
 
 <blockquote>
-<pre>8:lle nälkäiselle
+<pre>
+8:lle nälkäiselle
+
 Risottorunko
-3	sipulia
-3	valkosipulin kynttä
-~1 dl	öljyä, käytin rypsiöljyä
-1,5 l	maustelientä
-7 dl	risottoriisiä
-0,5 kg	kirsikkatomaatteja
-	kourallinen tuoreita basilikan lehtiä
-2	valkosipulin kynttä
-0,5 dl	hyvälaatuista oliiviöljyä
-2 ps	pakasteherneitä
-	minttua, mieluiten tuoretta mutta kuivatustakin tuli hyvää
-1 rkl	pestoa
-1 dl	hyvälaatuista oliiviöljyä
-	tarjoiltaessa parmesaania ja oliiviöljyä</pre>
+
+3       sipulia
+3       valkosipulin kynttä
+~1 dl   öljyä, käytin rypsiöljyä
+1,5 l   maustelientä
+7 dl    risottoriisiä
+0,5 kg  kirsikkatomaatteja
+        kourallinen tuoreita basilikan lehtiä
+2       valkosipulin kynttä
+0,5 dl  hyvälaatuista oliiviöljyä
+2 ps    pakasteherneitä
+        minttua, mieluiten tuoretta mutta kuivatustakin tuli hyvää
+1 rkl   pestoa
+1 dl    hyvälaatuista oliiviöljyä
+        tarjoiltaessa parmesaania ja oliiviöljyä
+</pre>
 </blockquote>
 
 Kokkauksessa on pari koulukuntaa harrastelijoiden kastissa; niitä
