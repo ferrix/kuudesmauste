@@ -2,7 +2,7 @@
 <html dir="ltr" lang="fi-FI" class="no-js">
 <head>
     <meta charset="UTF-8" />
-    <title>{{ page.title }} &#8211; {{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
     <meta name="profile" content="http://gmpg.org/xfn/11" />
     <!--[if lte IE 7 ]> <link rel="stylesheet" href="/themes/the-erudite/css/ie7.css" type="text/css"> <![endif]-->
     <!--[if IE 8 ]> <link rel="stylesheet" href="/themes/the-erudite/css/ie8.css" type="text/css"> <![endif]-->
@@ -13,16 +13,15 @@
 <meta name='robots' content='noindex,nofollow' />
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="/feed/" />
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Comments Feed" href="/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; {{ page.title }} Comments Feed" href="feed/" />
+{% if page.layout != "home" %}<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; {{ page.title }} Comments Feed" href="feed/" />{% endif %}
 <link rel='stylesheet' id='the-erudite-css'  href='/themes/the-erudite/css/erudite.css' type='text/css' media='all' />
-<script type='text/javascript' src='/js/comment-reply.js'></script>
 <script type='text/javascript' src='/js/jquery/jquery.js'></script>
-<link rel='prev' title='Viimeisimmät punaviinit, osa I' href='/2010/09/25/viimeisimmat-punaviinit-osa-i/' />
-<link rel='next' title='Purjo-perunasosekeitto' href='/2010/10/27/purjo-perunasosekeitto/' />
+{% if page.layout == "post" %}<link rel='prev' title='Viimeisimmät punaviinit, osa I' href='/2010/09/25/viimeisimmat-punaviinit-osa-i/' />
+<link rel='next' title='Purjo-perunasosekeitto' href='/2010/10/27/purjo-perunasosekeitto/' />{% endif %}
 <meta name="generator" content="Jekyll" />
-<link rel='canonical' href='{{ page.url }}' />
+<link rel="canonical" href="{{ page.url }}" />
 </head>
-<body class="{% if page.layout == "post" %}single{% else %}page{% endif %} hiding">
+<body class="{% if page.layout == "post" %}single{% elif page.layout == "home" %}home first-page{% else %}page{% endif %} hiding">
 
 <div id="wrapper" class="hfeed">
     <div id="header-wrap">
@@ -39,6 +38,3 @@
     </div><!--  #header-wrap -->
     <div id="container">
         <div id="content" role="main">
-            <div class="{{ page.layout }}">
-                <h2 class="entry-title">{{ page.title }}</h2>
-                <div class="entry-content">
