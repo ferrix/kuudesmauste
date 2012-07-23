@@ -19,13 +19,13 @@ theme: erudite
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; {{ page.title }} Comments Feed" href="feed/" />
 <link rel='stylesheet' id='the-erudite-css'  href='/themes/the-erudite/css/erudite.css' type='text/css' media='all' />
 <script type='text/javascript' src='/js/comment-reply.js'></script>
-<script type='text/javascript' src='/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='/js/jquery/jquery.js'></script>
 <link rel='prev' title='Viimeisimmät punaviinit, osa I' href='/2010/09/25/viimeisimmat-punaviinit-osa-i/' />
 <link rel='next' title='Purjo-perunasosekeitto' href='/2010/10/27/purjo-perunasosekeitto/' />
 <meta name="generator" content="Jekyll" />
 <link rel='canonical' href='{{ page.url }}' />
 </head>
-<body class="single single-post single-format-standard hiding">
+<body class="single hiding">
 
 <div id="wrapper" class="hfeed">
     <div id="header-wrap">
@@ -42,7 +42,7 @@ theme: erudite
     </div><!--  #header-wrap -->
     <div id="container">
         <div id="content" role="main">
-            <div class="post type-post status-publish format-standard hentry category-reseptit">
+            <div class="{{ page.layout }}">
                 <h2 class="entry-title">{{ page.title }}</h2>
                 <div class="entry-content">
                     {{ content }}
