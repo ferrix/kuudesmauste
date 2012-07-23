@@ -2,38 +2,15 @@
 theme: erudite
 ---
 {% include header.html %}
-            <div class="post type-post status-publish format-standard hentry category-reseptit first-post">
-                <h2 class="entry-title"><a href="/2011/02/19/kaksi-risottoa/" title="Pysyvä linkki Kaksi risottoa" rel="bookmark">Kaksi risottoa</a></h2>
+            {% for post in paginator.posts %}
+            <div class="post first-post">
+                <h2 class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
                 <div class="entry-content">
-<p>Jamie Oliverin ruokaohjelmat ovat television parasta antia tällä hetkellä. Hän käy reseptit läpi verkkaiseen tahtiin samalla makustellen eri ainesosien parhaita puolia ja selittäen niiden roolia ruoassa. Tulee mieleen eräs viininmaista(tta)ja Tsekeissä, joka näytti nautinnosta mallia aina kaataessaan uuden viinin lasiin, loistavaa! Aloitetaan perusteista: Risotto on helppoa. Siihen tulee runsaassa öljyssä kuulotettua sipulia ja valkosipulia, risottoriisiä ja nestettä riisin turvottamiseen. Lopuksi siihen lisätään risoton yksilöivä täyte, joka heijastelee kokin mieltymyksiä, puutarhan antimia ja mitä useammin kaappien tai pakastimen sisältöä. Resepti on iso, koska tarjosin tällä kertaa ruokaa isohkolle laulajalaumalle Jamien suosittelemia yhdistelmiä; tomaatia, basilikaa ja valkosipulia oliiviöljyssä sekä herneitä ja minttua oliiviöljyssä. Mahtavaa!</p>
-<blockquote>
-<pre>8:lle nälkäiselle
-Risottorunko
-3	sipulia
-3	valkosipulin kynttä
-~1 dl	öljyä, käytin rypsiöljyä
-1,5 l	maustelientä
-7 dl	risottoriisiä
-0,5 kg	kirsikkatomaatteja
-	kourallinen tuoreita basilikan lehtiä
-2	valkosipulin kynttä
-0,5 dl	hyvälaatuista oliiviöljyä
-2 ps	pakasteherneitä
-	minttua, mieluiten tuoretta mutta kuivatustakin tuli hyvää
-1 rkl	pestoa
-1 dl	hyvälaatuista oliiviöljyä
-	tarjoiltaessa parmesaania ja oliiviöljyä</pre>
-</blockquote>
-<p>Kokkauksessa on pari koulukuntaa harrastelijoiden kastissa; niitä jotka säveltävät reseptinsä aina ja niitä jotka seuraavat niitä tarkasti. On niitä, jotka suostuvat käyttämään vain tuoreita, lähikasvatettuja tai muuten vaan niin eksklusiivisia aineksia kuin on saatavilla ja on niitä jotka valitsevat käytännöllisen tien. Minä seuraan yleensä reseptejä edes kerran pilkulleen ja sitten sovellan omani siitä ja valitsen käytännölliset ainekset ennemmin kuin aidot ja oikeaoppiset, vaikka välillä kun on saatavilla niin sitten panostan niihin. Tällä kertaa kuten jo aineksista näkyy, jouduin soveltamaan käytäntöä. Kuvat jäivät lisäksi kiireen takia ottamatta.</p>
-<p>Sanotaan vielä kerran, että risottoruoat ovat helppoja, nyt vain tarvitsee tehdä asioita samanaikaisesti. Aloita pilkkomalla sipulit pieneksi, puolita kirsikkatomaatit, nosta herneet sulamaan ja katso että liemesi on valmiina. Seuraavaksi on tärkeää saada risottojen runko tekeytymään ja samalla valmistaa täytteet.</p>
-<p>Seuraavaksi kuullota sipulit öljyssä isossa kattilassa. Kun sipulit ovat kuullottuneet voit mausteeksi lisätä lorauksen valkoviiniä ja antaa alkoholin haihtua. Tärkeää on huomata, että nyt maustetaan öljyä, joka seuraavaksi imeytetään riisiin. Lisää risottoriisi kattilaan ja anna öljyn hetken imeytyä siihen, ei kuitenkaan niin että riisi alkaa suorastaan paistua. Pudota lämpötila noin 3/6:een ja lisää iso kauhallinen lientä kerrallaan riisin sekaan, kunnes saat hieman nestepintaa näkyviin sekoittamisen yhteydessä. Riisi ei missään vaiheessa tulisi olla nesteen peittämää eikä etenkään kiehua, koska yritämme turvottaa riisiä. Lisäile lientä pikkuhiljaa ja sekoita kattilaa pohjaa myöten, ettei risotto pääse tarttumaan pohjaan. Älä päästä runkoa kuivumaan, vaan lisää vettä jos liemi loppuu kesken. Tavoitteena on puuromainen rakenne jossa riisi on al dente.</p>
-<p>Kun valmistat risottoa, voit samalla tehdä varsinaiset täytteet valmiiksi, mitä ikinä ne ovatkaan. Tomaatinpuolikkaat menivät ensiksi muhimaan öljyn ja valkosipulin kanssa pannulle noin 4/6 lämmöllä pehmenemään, ja jossain vaiheessa laitoin basilikat mukaan antamaan makua. Basilikat eivät säily ehjinä ja tomaatistakin tulee muhjua lopuksi. Lämmitin ensin minttua ja pestoa hetken öljyssä ennen kuin laskin herneet seokseen mukaan. Molemmat seokset saavat muhia rauhassa ainakin risottorungon valmistumisen ajan lämmöllä, jota voit pudottaa kun havaitset että seokset ovat kypsyneet.</p>
-<p>Kun risottorunko on valmis, lisää 1,5 kauhalliseen risottoa yksi pienempi kauhallinen haluamaasi seosta. Voit sekoittaa sen risoton sekaan tai jättää päälle. Lisää parmesaaniraastetta ja liraus oliiviöljyä ja nauti. Helppoa!</p>
-<p>Haluan vielä kannustaa kokeilemaan eri seosten lisäksi erilaisia risottorunkoja. Tämä on Jamien mukaan perus vaalea risotto, mutta nesteen voit korvata käytännössä millä tahansa nesteellä. Itse olen suosinut tummaa olutta, mutta olen kokeillut myös porterin, lagerin ja punaviinin käyttämistä risotossa ja kaikista tulee hyvää. Kirjoitan tulevaisuudessa punaviinirisotosta lisää.</p>
-			<hr />
-								</div>
+                    {{ post.content }}
+                    <hr />
+                </div>
 				<div class="entry-meta">
-					<span class="entry-date"><abbr class="published" title="2011-02-19T12:00:51+0300">19.2.2011 &#8211; 12.00</abbr></span>
+                    <span class="entry-date"><abbr class="published" title="2011-02-19T12:00:51+0300">{{ post.date | date: "%d.%m.%Y" }}</abbr></span>
 					<span class="meta-sep">|</span>
 					<span class="author vcard">Kirjoittanut <a href="/author/mlavi/" title="Kirjoittajan Mikael julkaisut">Mikael</a></span>
 					<span class="meta-sep">|</span>
@@ -42,9 +19,9 @@ Risottorunko
 										<span class="comments-link"><a href="/2011/02/19/kaksi-risottoa/#respond" title="Comment on Kaksi risottoa">Ei kommentteja</a></span>
 				</div>
 			</div><!-- .post -->
+            {% endfor %}
 
-
-		<div id="post-112" class="post-112 post type-post status-publish format-standard hentry category-viinit home-post home-post-2">
+		<div class="post home-post home-post-2">
 		<h3 class="entry-title"><a href="/2011/02/15/viimeisimmat-punaviinit-osa-ii/" title="Pysyvä linkki Viimeisimmät punaviinit, osa II" rel="bookmark">Viimeisimmät punaviinit, osa II</a></h3>
 		<div class="entry-content">
 <p>Reilusta kaupasta voi olla montaa mieltä. Viisi euroa enemmän hintaa muuttuu kymmeneksi sentiksi jossain. Toki kymmenen senttiä on enemmän jossain, missä eurolla voi ostaa päivän ruuat. Olennainen asia reiluudessa on se, että tuotteiden täytyy olla hintansa väärttejä. Reiluus on ennen kaikkea brändi, jonka imagoa täytyy vaalia. En ole oikeastaan koskaan maistanut huonoa reilun kaupan viiniä. <span class="excerpt-more">&hellip;</span></p>
@@ -63,7 +40,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-167" class="post-167 post type-post status-publish format-standard hentry category-reseptit home-post home-post-3">
+		<div class="post home-post home-post-3">
 		<h3 class="entry-title"><a href="/2011/02/13/kanaa-ja-hummusta/" title="Pysyvä linkki Kanaa ja hummusta" rel="bookmark">Kanaa ja hummusta</a></h3>
 		<div class="entry-content">
 <p>Ei ollut kerrassaan mitään jääkaapissa. Pakastimessa oli kanaa, laatikossa 1,5 kg kikherneitä ja yllättäen jääkaapissa oleva limepyre muuttui yhtäkkiä hyödylliseksi. Tietääkseni taloudessa ei ole koskaan tahinia ollutkaan, mutta hyvän hummuksen sai silti tuotettua helposti. Hummus on suomalaisille tuttua lähinnä läheisen kebuffetin mezepöydästä. Oikeasti hummus on ihan oikeaa ruokaa ja esimerkiksi Ruoholahdessa on paikka, joka kutsuu <span class="excerpt-more">&hellip;</span></p>
@@ -82,7 +59,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-149" class="post-149 post type-post status-publish format-standard hentry category-reseptit home-post home-post-4">
+		<div class="post home-post home-post-4">
 		<h3 class="entry-title"><a href="/2011/02/10/yrttikanaa-ja-porkkanatikkuja/" title="Pysyvä linkki Yrttikanaa ja porkkanatikkuja" rel="bookmark">Yrttikanaa ja porkkanatikkuja</a></h3>
 		<div class="entry-content">
 <p>Tulin kuntoilemasta ja moisesta toiminnasta tulee hyvin herkästi nälkäiseksi ja silloin ei jaksa yleensä keksiä monimutkaisia reseptejä, yleensä. Enpä keksinyt nytkään, mutta satunnaisella heittelyllä tulee helposti hyviä annoksia. Tällä kertaa jääkaapista löytyi porkkanoita ja kermaviiliä. Simppeli ratkaisu olisi ollut sekoittaa jonkinlainen dippi ja pilkkoa porkkanat tikuiksi. Syömisen täytyi tapahtua sohvalla, jotta samaan aikaan voi katsella <span class="excerpt-more">&hellip;</span></p>
@@ -101,7 +78,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-124" class="post-124 post type-post status-publish format-standard hentry category-reseptit home-post home-post-5">
+		<div class="post home-post home-post-5">
 		<h3 class="entry-title"><a href="/2011/02/04/parfensit-eli-parsa-fetapiiraat/" title="Pysyvä linkki Parfensit eli parsa-fetapiiraat" rel="bookmark">Parfensit eli parsa-fetapiiraat</a></h3>
 		<div class="entry-content">
 <p>Vietin uuden vuoden juhlintani tällä kertaa vieraana juhlissa joissa ruokaa oli jo valmiiksi melko hurjasti. Silti, koska inspiraatio iski niin pitihän sitä lähteä uutta reseptiä kokeilemaan. Tällaista tuli. Tarkoituksena oli viedä isäntäväelle jotain tarjottavaa, jotta sen voisi laittaa heti esille ja kaikki saisivat jotain. Mietin jonkin piirakan tekemistä ensiksi, mutta en halunnut viedä mitään isoa <span class="excerpt-more">&hellip;</span></p>
@@ -120,7 +97,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-133" class="post-133 post type-post status-publish format-standard hentry category-valineet home-post home-post-6">
+		<div class="post home-post home-post-6">
 		<h3 class="entry-title"><a href="/2011/01/31/pihvin-teoria/" title="Pysyvä linkki Pihvin teoria" rel="bookmark">Pihvin teoria</a></h3>
 		<div class="entry-content">
 <p>Olennaisin miehen ruokavalion perusta, jolla luonnonvarainen mies lunastaa paikkansa lauman jäsenenä. Resepti ei ole lopulta kovin kummoinen, mutta koska kyseessä on ruokablogi ja pihviä tekis mieli, tallennetaan tämä metodi jälkipolville. Pihvin paistaminen on näennäisen simppeliä hommaa näennäisen simppelille kokille, mutta varmaan onnistumiseen tarvitaan vähän muutakin kuin tuuria. Ensimmäinen olennainen tekijä lihan paistamisessa on lämpötila. Kädenlämpöisellä <span class="excerpt-more">&hellip;</span></p>
@@ -139,7 +116,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-119" class="post-119 post type-post status-publish format-standard hentry category-viinit home-post home-post-7">
+		<div class="post home-post home-post-7">
 		<h3 class="entry-title"><a href="/2010/11/21/taman-vuoden-posoily/" title="Pysyvä linkki Tämän vuoden Pösöily" rel="bookmark">Tämän vuoden Pösöily</a></h3>
 		<div class="entry-content">
 <p>Taskunpohjalla olleista kolikoista piti valita viini. Vastaan sattui tämän vuoden Mommessin Beaujolais Nouveau. Viinin seuraksi piti valita jotain ruokaa ja jääkaapissa sattumalta oli kiekko camembertiä. Beaujolais on alunperin rypäle, josta tehty viini ei juuri kestä ikääntymistä eikä sitä pidetä mitenkään erityislaatuisena. Pohjalla on loistava markkinointikikka: Laaduttomista rypäleistä on tehty tuoreen viinin juhla, jonka perusteella voidaan <span class="excerpt-more">&hellip;</span></p>
@@ -158,7 +135,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-114" class="post-114 post type-post status-publish format-standard hentry category-reseptit home-post home-post-8">
+		<div class="post home-post home-post-8">
 		<h3 class="entry-title"><a href="/2010/10/27/purjo-perunasosekeitto/" title="Pysyvä linkki Purjo-perunasosekeitto" rel="bookmark">Purjo-perunasosekeitto</a></h3>
 		<div class="entry-content">
 <p>Kiireen keskellä on aina välillä seisahdettava parempien asioiden äärelle, vaikka olisi kuinka kiire. Viimeisten viikkojen aikana on ollut yhtä jos toista tekemistä enkä ole päässyt tämän miellyttävän kirjoittamisen pariin juurikaan. Resepti on minulle tullut alunperun kuorotuttavaltani, mutta sittemmin jouduin onkimaan reseptin uudestaan esiin netistä ja se löytyi näppärästi Pastanjauhannasta. Kiitos tästä! Työstä tutut periaatteet tulee <span class="excerpt-more">&hellip;</span></p>
@@ -177,7 +154,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-109" class="post-109 post type-post status-publish format-standard hentry category-reseptit home-post home-post-9">
+		<div class="post home-post home-post-9">
 		<h3 class="entry-title"><a href="/2010/09/25/aurakanaa-salaattipedilla/" title="Pysyvä linkki Aurakanaa salaattipedillä" rel="bookmark">Aurakanaa salaattipedillä</a></h3>
 		<div class="entry-content">
 <p>Salaatti on kuulemma kevyttä. Tämän päivän ruoka todistaa väitteen vääräksi. Toki jälkikäteen olo ei ole mitenkään raskaan tukkoinen, mutta salaattipedin päälle lisätty kanakastike toi kylläisyyden. Annos oli runsas, joten siitä riittäisi varmaan neljälle. Juomaksi valitsimme Lidlistä löytyneen ranskalaisen siiderin. Varsin oivallisen makuinen juoma, joka on ilmeisesti ranskaviikon erikoistuote. Katri (avovaimoni) arvuutteli, että onko kyseessä todellisuudessa <span class="excerpt-more">&hellip;</span></p>
@@ -196,7 +173,7 @@ Risottorunko
 			</div><!-- .post -->
 
 
-		<div id="post-105" class="post-105 post type-post status-publish format-standard hentry category-viinit home-post home-post-10">
+		<div class="post home-post home-post-10">
 		<h3 class="entry-title"><a href="/2010/09/25/viimeisimmat-punaviinit-osa-i/" title="Pysyvä linkki Viimeisimmät punaviinit, osa I" rel="bookmark">Viimeisimmät punaviinit, osa I</a></h3>
 		<div class="entry-content">
 <p>Olen huomannut, että syksyllä maistuu punaviini. Minulle toki maistuu aina, mutta sitä on myös ihan pyydetty tuomaan kotiin. Useimmiten perjantaipullo on siis punaista. Omat mieltymykseni ovat jo pitkän aikaa viettäneet Riojaan päin, mutta joskus pitää laajentaa. Siinä missä Rioja on hyvää esimerkiksi pihviruuan kanssa, ei aina ole välttämätöntä sytyttää kaikkia makunystyröitä täysillä. Olen löytänyt muutaman <span class="excerpt-more">&hellip;</span></p>
