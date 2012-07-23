@@ -39,8 +39,9 @@ Täytteeseen:
 1	iso sipuli
 1 dl	haperoita
 1	herkkutatti kuutioituna
-1-2 rkl	voita</pre>
-</blockquote></br>
+1-2 rkl	voita
+</pre>
+</blockquote>
 
 Runko antaa vain puitteet makaronilaatikolle, koska siitä puuttuu nyt
 täyte. Valmistin oman täytteeni kypsentämällä haperoista ja yhdestä

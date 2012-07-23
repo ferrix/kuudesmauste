@@ -68,7 +68,10 @@ Nosta valmiiksi kasatut paffensit uuniin kypsymään noin 35 minuutiksi
 kuten taikinan ohjepaketti sanoo. Tarjoa ja nauti!
 
 Kuvia on tarjolla lisää Flickr-tilin alla. Laitan sinne kännykällä
-taltioimani kuvat
-<a href="http://www.flickr.com/photos/kjue/tags/kuudesmauste.fi/">kuudesmauste.fi</a> tagin alle.
+taltioimani kuvat [kuudesmauste.fi][1] tagin alle.
 
-<a title="IMAG0130 by Kjue, on Flickr" href="http://www.flickr.com/photos/kjue/5327766443/"><img src="http://farm6.static.flickr.com/5290/5327766443_cab87ea30c_s.jpg" alt="IMAG0130" width="75" height="75" /></a><a title="IMAG0132 by Kjue, on Flickr" href="http://www.flickr.com/photos/kjue/5328375548/"><img src="http://farm6.static.flickr.com/5010/5328375548_6b3c311c83_s.jpg" alt="IMAG0132" width="75" height="75" /></a><a title="Parfensit eli parsa-fetapiiraat by Kjue, on Flickr" href="http://www.flickr.com/photos/kjue/5327756333/"><img src="http://farm6.static.flickr.com/5048/5327756333_fa3419d68e_s.jpg" alt="Parfensit eli parsa-fetapiiraat" width="75" height="75" /></a>
+[1]: http://www.flickr.com/photos/kjue/tags/kuudesmauste.fi
+
+<a href="http://www.flickr.com/photos/kjue/5327766443/"><img src="http://farm6.static.flickr.com/5290/5327766443_cab87ea30c_s.jpg" width="75" height="75" /></a>
+<a href="http://www.flickr.com/photos/kjue/5328375548/"><img src="http://farm6.static.flickr.com/5010/5328375548_6b3c311c83_s.jpg" width="75" height="75" /></a>
+<a href="http://www.flickr.com/photos/kjue/5327756333/"><img src="http://farm6.static.flickr.com/5048/5327756333_fa3419d68e_s.jpg" width="75" height="75" /></a>
