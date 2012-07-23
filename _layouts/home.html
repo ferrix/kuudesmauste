@@ -25,8 +25,8 @@ theme: erudite
             {% endfor %}
 
 			<div id="nav-below" class="navigation">
-				<div class="nav-previous"><a href="/page/2/" ><span class="meta-nav">&larr;</span> Vanhempia julkaisuja</a></div>
-				<div class="nav-next"></div>
+                <div class="nav-previous">{% if paginator.next_page %}<a href="/page{{ paginator.next_page }}/" ><span class="meta-nav">&larr;</span> Vanhempia julkaisuja</a>{% endif %}</div>
+                <div class="nav-next">{% if paginator.previous_page %}<a href="{% if paginator.previous_page == 1 %}/{% else %}page{{ paginator.previous_page }}{% endif %}">Uudempia julkaisuja <span class="meta-nav">&rarr;</span></a>{% endif %}</div>
 			</div>
 
 {% include footer.html %}
