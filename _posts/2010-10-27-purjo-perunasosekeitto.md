@@ -39,7 +39,8 @@ loraus	brandyä (mausteeksi)
 1-2 rkl	kasvisfondia
 0,8-1,0 l	vettä
 2 dl	maitoa
-	pari nokaretta voita</pre></blockquote></br>
+	pari nokaretta voita
+</pre></blockquote>
 
 Kuori ja pilko perunat. Halkaise purjo pitkittäin puoliksi ja pese
 kaikki välit huolellisesti. Pilko purjo, sipuli ja valkosipulit ja
