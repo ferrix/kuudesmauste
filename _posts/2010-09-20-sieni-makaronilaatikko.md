@@ -9,7 +9,9 @@ tags:
 type: post
 status: publish
 ---
-<a title="Sienisaalis 5.9.2010" href="http://www.flickr.com/photos/kjue/4960426664/"><img src="http://farm5.static.flickr.com/4133/4960426664_aa31f7bf9f.jpg" alt="Sienisaalis 5.9.2010" width="166" height="125" align="left" /></a>Viime vuodesta alkaen olen käynyt erään ystäväni kanssa sienimetsällä syksyllä. Tänä vuonna päätimme jatkaa hyväksi havaittua traditiota ja sieniähän sieltä saatiin. Ensimmäisen kierroksen saaliiseen kuului haperoita, herkkutatteja ja pieni erä mustatorvisieniä. Mustatorvisienet pääsivät kuivaukseen ja odottelemaan jotain erityistä tilaisuutta, jolloin pääsen tekemään niistä mustatorvisieni-kahvikastikkeen hevosen tai naudan sisäfileelle. Siitä lisää joskus.
+<a title="Sienisaalis 5.9.2010" href="http://www.flickr.com/photos/kjue/4960426664/"><img src="http://farm5.static.flickr.com/4133/4960426664_aa31f7bf9f.jpg" alt="Sienisaalis 5.9.2010" width="166" height="125" align="left" /></a>
+
+Viime vuodesta alkaen olen käynyt erään ystäväni kanssa sienimetsällä syksyllä. Tänä vuonna päätimme jatkaa hyväksi havaittua traditiota ja sieniähän sieltä saatiin. Ensimmäisen kierroksen saaliiseen kuului haperoita, herkkutatteja ja pieni erä mustatorvisieniä. Mustatorvisienet pääsivät kuivaukseen ja odottelemaan jotain erityistä tilaisuutta, jolloin pääsen tekemään niistä mustatorvisieni-kahvikastikkeen hevosen tai naudan sisäfileelle. Siitä lisää joskus.
 
 Osan haperoista ja lähes kaikki tatit laitoin pakkaseen, mutta jätin raon vielä yhdelle ruoalle ja päädyin hetken mietinnän jälkeen helppoon runkoon makaronilaatikosta jonka avulla voi soveltaa monenlaisia täytteitä joilla voi korvata perinteisen lihatäytteen. Myllyn paras typistää makaronilaatikon perusteet todella yksinkertaiseksi reseptiksi. Runkoon kuuluu seuraavat aineet:
 <blockquote>
