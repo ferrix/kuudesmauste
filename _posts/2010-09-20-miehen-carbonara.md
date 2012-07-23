@@ -37,17 +37,17 @@ tekemässä tytöille tai laihduttajille. Harmi vaan, että olen
 jälkimmäiseen joukkoon sittemmin liittynyt. Eräänlainen terapeuttinen
 veitsenkäyttö on myös ilmeistä tästä ohjeesta:
 
-<blockquote>Pannu tulelle. Hakkaa sipuli mujuksi. Saksi pekonista
-enintään neliösentin paloja. Pasta kiehumaan. Heitä pekoni pannulle.
-Kun rasvaa näkyy, heitä sipuli kaveriksi. Heitä pannulle ainakin
-mustaa pippuria ja murskattu valkosipuli. Kun pekoni alkaa näyttää
-jonkin verran rapealta, viilennä seos kermalla. Juo sherryä. Riko
-munat, liruttele valkuainen soosin sekaan, yritä olla heittämättä
-keltuaista joukkoon tässä vaiheessa. Huolehdi, että soosista tulee
-tasaista eikä valkuainen käy kokkareiksi. Kun valkuainen alkaa hyytyä,
-ota pannu pois lämmöltä ja sotke keltuainen mukaan soosiin. Kaada
-pastasta vedet, sotke soosi ja pasta kattilassa. Juo loppu sherry
-viimeistään nyt. Tarjoile sentin parmesankerroksen alla.</blockquote>
+> Pannu tulelle. Hakkaa sipuli mujuksi. Saksi pekonista enintään
+  neliösentin paloja. Pasta kiehumaan. Heitä pekoni pannulle.  Kun
+  rasvaa näkyy, heitä sipuli kaveriksi. Heitä pannulle ainakin mustaa
+  pippuria ja murskattu valkosipuli. Kun pekoni alkaa näyttää jonkin
+  verran rapealta, viilennä seos kermalla. Juo sherryä. Riko munat,
+  liruttele valkuainen soosin sekaan, yritä olla heittämättä
+  keltuaista joukkoon tässä vaiheessa. Huolehdi, että soosista tulee
+  tasaista eikä valkuainen käy kokkareiksi. Kun valkuainen alkaa
+  hyytyä, ota pannu pois lämmöltä ja sotke keltuainen mukaan soosiin.
+  Kaada pastasta vedet, sotke soosi ja pasta kattilassa. Juo loppu
+  sherry viimeistään nyt. Tarjoile sentin parmesankerroksen alla.
 
 Viimeksi tätä lajia valmistaessa käytin mustaa tagliatelleä, jonka
 päälle lorottelin jonkin verran oliiviöljyä. Vaikka tuntuukin,  että
