@@ -13,7 +13,7 @@ to:
 
 1. Contents of the `themes/the-erudite` directory
 2. Contents of the `_includes/the-erudite` directory
-3. Theme files labeled with `theme: erudite` in the YAML front matter
+3. Theme files labeled with `theme: the-erudite` in the YAML front matter
 4. `js/jquery/jquery.js`
 
 The license does not apply to the content of this blog. Content
