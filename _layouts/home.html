@@ -1,7 +1,7 @@
 ---
-theme: erudite
+theme: the-erudite
 ---
-{% include header.html %}
+{% include the-erudite/header.html %}
             {% for post in paginator.posts %}
             <div class="post {% if forloop.index == 1 and paginator.page == 1 %}first-post{% elsif paginator.page == 1 %}home-post home-post-{{ forloop.index }}{% endif %}">
                 <h{% if forloop.index == 1 and paginator.page == 1 %}2{% else %}3{% endif %} class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
@@ -29,4 +29,4 @@ theme: erudite
                 <div class="nav-next">{% if paginator.previous_page %}<a href="{% if paginator.previous_page == 1 %}/{% else %}page{{ paginator.previous_page }}{% endif %}">Uudempia julkaisuja <span class="meta-nav">&rarr;</span></a>{% endif %}</div>
 			</div>
 
-{% include footer.html %}
+{% include the-erudite/footer.html %}
