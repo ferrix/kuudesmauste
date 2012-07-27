@@ -1,7 +1,7 @@
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 paginate: 10
 
-exclude: ["CNAME"]
+exclude: ["CNAME", "README.md"]
 
 title: Kuudes mauste
 tagline: I see hungry people
