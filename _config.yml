@@ -8,3 +8,15 @@ tagline: I see hungry people
 
 disqus:
   shortname: kuudesmauste
+
+categorypages:
+- name: Reseptit
+  url: /luokka/ruuanlaitto/reseptit/
+- name: Välineet
+  url: /luokka/ruuanlaitto/valineet/
+- name: Ruuanlaitto
+  url: /luokka/ruuanlaitto/
+- name: Viinit
+  url: /luokka/viinit/
+- name: Kuudes mauste
+  url: /luokka/blogi/

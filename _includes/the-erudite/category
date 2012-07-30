@@ -1,5 +1,15 @@
 {% for category in site.categories %}
+  {% assign match = false %}
   {% if category[0] == page.category %}
+    {% assign match = true %}
+  {% else %}
+      {% for c in page.categories %}
+        {% if category[0] == c %}
+          {% assign match = true%}
+        {% endif %}
+      {% endfor %}
+  {% endif %}
+  {% if match %}
     <ul>
     {% for node in category[1] %}    
       {% if node.title != null %}

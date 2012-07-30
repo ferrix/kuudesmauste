@@ -1,0 +1,1 @@
+{% for catpage in site.categorypages %}{% if catpage.name == category %}<a href="{{ catpage.url }}" title="Näytä kategoria {{ catpage.name }}">{% if linktext %}{{ linktext }}{% else %}{{ catpage.name }}{% endif %}</a>{% endif %}{% endfor %}{% assign category = nil %}{% assign linktext = nil %}

@@ -26,14 +26,19 @@
                     <li id="categories">
                         <h3>Luokat</h3>
                         <ul>
-                            <li class="cat-item"><a href="/luokka/blogi/" title="View all posts filed under {{ site.title }}">{{ site.title }}</a></li>
-                            <li class="cat-item"><a href="/luokka/ruuanlaitto/" title="Miten me kokkaamme">Ruuanlaitto</a>
+                            <li class="cat-item">
+                                {% assign category = 'Kuudes mauste' %}{% include categorylink %}</li>
+                            <li class="cat-item">
+                                {% assign category = 'Ruuanlaitto' %}{% include categorylink %}
                                 <ul class='children'>
-                                    <li class="cat-item"><a href="/luokka/ruuanlaitto/reseptit/" title="View all posts filed under Reseptit">Reseptit</a></li>
-                                    <li class="cat-item"><a href="/luokka/ruuanlaitto/valineet/" title="Ruoanlaiton välineet ja niihin liittyvät asiat">Välineet</a></li>
+                                    <li class="cat-item">
+                                        {% assign category = 'Reseptit' %}{% include categorylink %}</li>
+                                    <li class="cat-item">
+                                        {% assign category = 'Välineet' %}{% include categorylink %}</li>
                                 </ul>
                             </li>
-                            <li class="cat-item"><a href="/luokka/viinit/" title="View all posts filed under Viinit">Viinit</a></li>
+                            <li class="cat-item">
+                                {% assign category = 'Viinit' %}{% include categorylink %}</li>
                         </ul>
                     </li>
                     <li id="archives">
