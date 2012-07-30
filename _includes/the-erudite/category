@@ -10,15 +10,15 @@
       {% endfor %}
   {% endif %}
   {% if match %}
-    <ul>
     {% for node in category[1] %}    
       {% if node.title != null %}
-        <li>
-            <a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a>
-            <span class="description">{{ node.date | date: "%d.%m.%Y"}}</span>
-        </li>
+            <div class="{{ node.layout }}">
+                <h3 class="entry-title"><a href="{{ node.url }}" title="Pysyvä linkki {{ node.title}}" rel="bookmark">{{ node.title }}</a></h3>
+                <div class="entry-content">
+                    <p>{{ node.content | strip_html | truncatewords: 55, ' <span class="excerpt-more">&hellip;</span>' }}</p>
+                </div>
+            </div><!-- .post -->
       {% endif %}
     {% endfor %}
-    </ul>
   {% endif %}
 {% endfor %}

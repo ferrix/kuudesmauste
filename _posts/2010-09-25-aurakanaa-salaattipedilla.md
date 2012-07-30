@@ -2,7 +2,6 @@
 layout: post
 title: Aurakanaa salaattipedillä
 published: true
-meta: {}
 author: Ferrix
 categories: 
 - Reseptit
