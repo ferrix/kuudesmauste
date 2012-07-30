@@ -1,0 +1,14 @@
+{% for category in site.categories %}
+  {% if category[0] == page.category %}
+    <ul>
+    {% for node in category[1] %}    
+      {% if node.title != null %}
+        <li>
+            <a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a>
+            <span class="description">{{ node.date | date: "%d.%m.%Y"}}</span>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
