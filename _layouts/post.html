@@ -23,29 +23,9 @@ theme: the-erudite
                 {% if page.next %}<div class="nav-next"><a href="{{ page.next.url }}" rel="next">{{ page.next.title }} <span class="meta-nav">&rarr;</span></a></div>{% endif %}
             </div>
 
-            <div id="comments">
-                <h4>Ei kommentteja</h4>
-                <div id="respond">
-                    <h3 id="reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2010/09/25/aurakanaa-salaattipedilla/#respond" style="display:none;">Cancel reply</a></small></h3>
-                    <form action="/wp-comments-post.php" method="post" id="commentform">
-                        <p id="comment-notes">Sähköpostiosoitettasi <em>ei koskaan</em> jaeta ulkopuolisille.Pakolliset kentät on merkitty <span class="required">*</span></p>
-                        <div class="user-info">
-                            <div class="form-label"><label for="author">Nimi</label> <span class="required">*</span></div>
-                            <div class="form-input"><input id="author" name="author" class="text" type="text" value="" size="30" /></div>
-                            <div class="form-label"><label for="email">Sähköposti</label> <span class="required">*</span></div>
-                            <div class="form-input"><input id="email" name="email" class="text" type="text" value="" size="30" /></div>
-                            <div class="form-label"><label for="url">Sivusto</label></div>
-                            <div class="form-input"><input id="url" name="url" class="text" type="text" value="" size="30" /></div>
-                        </div>
-                        <p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>
-                        <p class="form-submit">
-                            <input name="submit" type="submit" id="submit" value="Post Comment" />
-                            <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-                        </p>
-                        <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="69adb96ab5" /></p>
-                    </form>
-                </div><!-- #respond -->
+            <div id="respond">
+                {% include comments %}
+            </div><!-- #respond -->
 
-            </div><!-- #comments -->
 
 {% include the-erudite/footer.html %}

@@ -5,3 +5,6 @@ exclude: ["CNAME", "README.md"]
 
 title: Kuudes mauste
 tagline: I see hungry people
+
+disqus:
+  shortname: kuudesmauste
