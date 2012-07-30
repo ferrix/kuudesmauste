@@ -13,13 +13,14 @@ theme: the-erudite
                     <hr />
                 </div>
                 <div class="entry-meta">
+                    {% include comment-count %}
                     <span class="entry-date"><abbr class="published" title="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d.%m.%Y" }}</abbr></span>
                     <span class="meta-sep">|</span>
                     <span class="author vcard">Kirjoittanut <a href="/author/{{ post.author | downcase }}/" title="Kirjoittajan {{ post.author }} julkaisut">{{ post.author }}</a></span>
                     <span class="meta-sep">|</span>
-                    <span class="cat-links">Julkaistu <a href="/luokka/ruuanlaitto/reseptit/" title="Näytä kategoria Reseptit" rel="category tag">Reseptit</a></span>
+                    <span class="cat-links">Julkaistu{% for category in post.categories %} <a href="/luokka/ruuanlaitto/reseptit/" title="Näytä kategoria Reseptit" rel="category tag">{{ category }}</a>{% endfor %}</span>
                     <span class="meta-sep">|</span>
-                    <span class="comments-link"><a href="{{ post.url }}#respond" title="Comment on Kaksi risottoa">Ei kommentteja</a></span>
+                    <span class="comments-link"><a href="{{ post.url }}#disqus_thread" title="Comment on {{ post.title }}">kommentoi</a></span>
                 </div>
             </div><!-- .post -->
             {% endfor %}

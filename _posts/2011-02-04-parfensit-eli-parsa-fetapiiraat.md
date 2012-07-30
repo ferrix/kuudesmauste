@@ -4,8 +4,9 @@ title: Parfensit eli parsa-fetapiiraat
 published: true
 meta: {}
 author: Mikael
-tags: 
+categories: 
 - Reseptit
+
 type: post
 status: publish
 ---

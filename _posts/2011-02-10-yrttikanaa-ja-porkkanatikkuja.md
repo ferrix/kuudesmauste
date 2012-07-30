@@ -3,7 +3,7 @@ layout: post
 title: Yrttikanaa ja porkkanatikkuja
 published: true
 author: Ferrix
-tags: 
+categories: 
 - Reseptit
 
 type: post

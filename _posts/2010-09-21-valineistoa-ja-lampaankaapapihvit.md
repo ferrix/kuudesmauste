@@ -3,7 +3,7 @@ layout: post
 title: Välineistöä ja lampaankääpäpihvit
 author: Mikael
 published: true
-tags: 
+categories: 
 - Reseptit
 - Välineet
 

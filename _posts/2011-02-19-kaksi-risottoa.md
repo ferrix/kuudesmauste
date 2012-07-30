@@ -3,7 +3,7 @@ layout: post
 title: Kaksi risottoa
 published: true
 author: Mikael
-tags: 
+categories: 
 - Reseptit
 
 type: post

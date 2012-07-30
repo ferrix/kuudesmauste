@@ -3,10 +3,9 @@ layout: post
 title: Pihvin teoria
 published: true
 author: Ferrix
-meta: 
-  _edit_last: "1"
-tags: 
+categories: 
 - Välineet
+
 type: post
 status: publish
 ---

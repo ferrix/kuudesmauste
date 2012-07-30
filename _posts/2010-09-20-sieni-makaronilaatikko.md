@@ -4,7 +4,7 @@ title: Sieni-makaronilaatikko
 published: true
 meta: {}
 author: Mikael
-tags: 
+categories: 
 - Reseptit
 type: post
 status: publish

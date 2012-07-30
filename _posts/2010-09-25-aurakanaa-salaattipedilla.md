@@ -4,7 +4,7 @@ title: Aurakanaa salaattipedillä
 published: true
 meta: {}
 author: Ferrix
-tags: 
+categories: 
 - Reseptit
 type: post
 status: publish

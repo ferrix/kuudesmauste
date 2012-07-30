@@ -2,10 +2,8 @@
 layout: post
 title: Mikä on kuudes mauste?
 published: true
-meta: 
-  _edit_last: "1"
 author: Molemmat
-tags: 
+categories: 
 - Kuudes mauste
 type: post
 status: publish

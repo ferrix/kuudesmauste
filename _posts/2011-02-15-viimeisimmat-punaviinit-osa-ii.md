@@ -2,10 +2,8 @@
 layout: post
 title: "Viimeisimm\xC3\xA4t punaviinit, osa II"
 published: true
-meta: 
-  _edit_last: "1"
-tags: 
 author: Ferrix
+categories:
 - Viinit
 type: post
 status: publish

@@ -4,7 +4,7 @@ title: Mumssakaa
 published: false
 meta: {}
 author: Ferrix
-tags: 
+categories: 
 - Reseptit
 type: post
 status: draft

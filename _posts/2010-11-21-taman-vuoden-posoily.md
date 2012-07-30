@@ -3,7 +3,7 @@ layout: post
 title: Tämän vuoden pösöily
 author: Ferrix
 published: true
-tags: 
+categories: 
 - Viinit
 
 type: post

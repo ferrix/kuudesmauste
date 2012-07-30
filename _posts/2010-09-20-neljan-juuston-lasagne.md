@@ -4,7 +4,7 @@ title: Neljän juuston lasagne
 published: true
 meta: {}
 author: Ferrix
-tags: 
+categories: 
 - Reseptit
 type: post
 status: publish

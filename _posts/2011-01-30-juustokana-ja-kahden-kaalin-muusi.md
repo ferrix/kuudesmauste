@@ -4,8 +4,9 @@ title: Juustokana ja kahden kaalin muusi
 published: false
 meta: {}
 author: Ferrix
-tags: 
+categories: 
 - Reseptit
+
 type: post
 status: draft
 ---

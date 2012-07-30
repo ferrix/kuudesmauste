@@ -2,10 +2,10 @@
 layout: post
 title: Kanaa ja hummusta
 published: true
-meta: {}
 author: Ferrix
-tags: 
+categories: 
 - Reseptit
+
 type: post
 status: publish
 ---

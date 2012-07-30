@@ -4,7 +4,7 @@ title: Viimeisimmät punaviinit, osa I
 published: true
 meta: {}
 author: Ferrix
-tags: 
+categories: 
 - Viinit
 type: post
 status: publish

@@ -8,13 +8,14 @@ theme: the-erudite
                     {{ content }}
                 </div>
                 <div class="entry-meta">
+                    {% include comment-count %}
                     <span class="entry-date"><abbr class="published" title="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d.%m.%Y" }}</abbr></span>
                     <span class="meta-sep">|</span>
                     <span class="author vcard">Kirjoittanut <a href="/author/{{ page.author | downcase }}/" title="Kirjoittajan {{ page.author }} julkaisut">{{ page.author }}</a></span>
                     <span class="meta-sep">|</span>
-                    <span class="cat-links">Julkaistu <a href="/luokka/ruuanlaitto/reseptit/" title="View all posts in Reseptit" rel="category tag">Reseptit</a></span>
+                    <span class="cat-links">Julkaistu{% for category in page.categories %} <a href="/luokka/ruuanlaitto/{{ category | replace: 'ä','a' | replace: 'ö','o' | downcase | handle }}/" title="Näytä kategoria {{ category }}" rel="category tag">{{ category }}</a>{% unless forloop.last %},{% endunless %}{% endfor %}</span>
                     <span class="meta-sep">|</span>
-                    <span class="comments-link"><a href="#respond" title="Comment on Aurakanaa salaattipedillä">Ei kommentteja</a></span>
+                    <span class="comments-link"><a href="#disqus_thread" title="Comment on {{ page.title }}">kommentoi</a></span>
                 </div>
             </div><!-- .post -->
 
@@ -23,9 +24,7 @@ theme: the-erudite
                 {% if page.next %}<div class="nav-next"><a href="{{ page.next.url }}" rel="next">{{ page.next.title }} <span class="meta-nav">&rarr;</span></a></div>{% endif %}
             </div>
 
-            <div id="respond">
-                {% include comments %}
-            </div><!-- #respond -->
+            {% include comments %}
 
 
 {% include the-erudite/footer.html %}
