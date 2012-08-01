@@ -4,7 +4,7 @@ theme: the-erudite
 {% include the-erudite/header.html %}
             {% for post in paginator.posts %}
             <div class="post {% if forloop.index == 1 and paginator.page == 1 %}first-post{% elsif paginator.page == 1 %}home-post home-post-{{ forloop.index }}{% endif %}">
-                <h{% if forloop.index == 1 and paginator.page == 1 %}2{% else %}3{% endif %} class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
+                <h{% if forloop.index == 1 and paginator.page == 1 %}2{% else %}3{% endif %} class="entry-title"><a href="{{ post.url }}" title="Pysyvä linkki {{ post.title }}" rel="bookmark">{{ post.title }}</a></h{% if forloop.index == 1 and paginator.page == 1 %}2{% else %}3{% endif %}>
                 <div class="entry-content">
                     {% if forloop.index == 1 and paginator.page == 1 %}{{ post.content }}{% else %}<p>
                         {{ post.content | strip_html | truncatewords: 55, ' <span class="excerpt-more">&hellip;</span>' }}
