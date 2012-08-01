@@ -9,6 +9,9 @@ tagline: I see hungry people
 disqus:
   shortname: kuudesmauste
 
+analytics:
+  google_tracking_id: UA-33821507-1
+
 categorypages:
 - name: Reseptit
   url: /luokka/ruuanlaitto/reseptit/

@@ -20,6 +20,7 @@
 {% if page.next %}<link rel='next' title="{{ page.next.title }}" href="{{ page.next.url }}" />{% endif %}
 <meta name="generator" content="Jekyll" />
 <link rel="canonical" href="{{ page.url }}" />
+{% include analytics %}
 </head>
 <body class="{% if page.layout == "post" %}single{% elsif page.layout == "home" and paginator.page == 1 %}home first-page{% elsif page.layout == "home" and paginator.page != 1 %}home paged{% else %}page{% endif %} hiding">
 
