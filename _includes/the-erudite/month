@@ -1,0 +1,8 @@
+{% for post in site.posts %}
+    {% capture pyear %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture pmonth %}{{ post.date | date: '%m' }}{% endcapture %}
+    {% if year == pyear and month == pmonth %}
+      {% assign node = post %}
+      {% include the-erudite/post %}
+    {% endif %}
+{% endfor %}

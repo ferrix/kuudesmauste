@@ -1,0 +1,25 @@
+{% if month == '01' %}
+tammikuu
+{% elsif month == '02' %}
+helmikuu
+{% elsif month == '03' %}
+maaliskuu
+{% elsif month == '04' %}
+huhtikuu
+{% elsif month == '05' %}
+toukokuu
+{% elsif month == '06' %}
+kesäkuu
+{% elsif month == '07' %}
+heinäkuu
+{% elsif month == '08' %}
+elokuu
+{% elsif month == '09' %}
+syyskuu
+{% elsif month == '10' %}
+lokakuu
+{% elsif month == '11' %}
+marraskuu
+{% elsif month == '12' %}
+joulukuu
+{% endif %}

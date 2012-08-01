@@ -12,12 +12,7 @@
   {% if match %}
     {% for node in category[1] %}    
       {% if node.title != null %}
-            <div class="{{ node.layout }}">
-                <h3 class="entry-title"><a href="{{ node.url }}" title="Pysyvä linkki {{ node.title}}" rel="bookmark">{{ node.title }}</a></h3>
-                <div class="entry-content">
-                    <p>{{ node.content | strip_html | truncatewords: 55, ' <span class="excerpt-more">&hellip;</span>' }}</p>
-                </div>
-            </div><!-- .post -->
+          {% include the-erudite/post %}
       {% endif %}
     {% endfor %}
   {% endif %}
