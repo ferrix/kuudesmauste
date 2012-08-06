@@ -2,7 +2,7 @@ handlers:
 - url: '/'
   static_files: 'index.html index.markdown readme.markdown'
   upload: '.*'
-- url: '/.*/'
+- url: '/(.*)/'
   static_files: \1/index.html
 - url: '/'
   static_dir: '/'
